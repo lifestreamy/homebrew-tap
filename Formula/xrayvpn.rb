@@ -1,14 +1,14 @@
 class Xrayvpn < Formula
   desc "Provision and manage a self-hosted Xray VLESS + REALITY VPN server"
   homepage "https://github.com/lifestreamy/xrayvpn"
-  url "https://github.com/lifestreamy/xrayvpn/releases/download/v0.4.2/xrayvpn-0.4.2-macos-arm64-portable"
-  sha256 "377c936a9dfd17bedb029cee9b4b15d3f09a7a6cbc6d6418842ab0a66eaa27a3"
+  url "https://github.com/lifestreamy/xrayvpn/releases/download/v0.4.3/xrayvpn-0.4.3-macos-arm64-portable"
+  sha256 "0e575a49330992260205b870a7bdfa3e99d7b0cd7d17f7055c82d10592df2fa3"
   license "AGPL-3.0-or-later"
 
   depends_on arch: :arm64
 
   def install
-    bin.install "xrayvpn-0.4.2-macos-arm64-portable" => "xrayvpn"
+    bin.install "xrayvpn-0.4.3-macos-arm64-portable" => "xrayvpn"
   end
 
   test do
